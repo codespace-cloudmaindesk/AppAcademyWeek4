@@ -11,7 +11,7 @@
         <option value="snowy">Snowy</option>
         <option value="cloudy">Cloudy</option>
     </select>
-    <a href="#">GO!</a>
+    <a href="#" onclick="btnPressed()">GO!</a>
     <p id="outputText">Weather advice : </p>
     
     <script>
@@ -21,7 +21,7 @@
 
             switch(weatherSelected){
                 case "sunny":
-                    advice ="Wear your sugnclasses";
+                    advice ="wear your sugnclasses";
                     break;
             }
             document.getElementById("outputText").innerHTML = "Weather advice " + advice;
